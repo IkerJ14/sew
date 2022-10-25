@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="UO276417" />
+    <meta name ="description" content ="Pagina que contiene un formulario respectivo al framework ember.js" />
+    <meta name ="keywords" content ="formulario, framework, ember.js" />
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+        
+
+    <title>Formulario</title>
+
+    <!-- Link de enlace con la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+    <header>
+        <img src="Multimedia/ember.png" alt="Logo ember" />
+        <h1>Framework Ember.js</h1>
+    </header>
+    <nav>
+        
+        <a href=index.html accesskey="I" tabindex=1>Inicio</a>
+        <a href=conceptos.html accesskey="C" tabindex=2>Conceptos</a>
+        <a href=versions.html accesskey="V" tabindex=3>Versiones</a>    
+        
+    </nav>
+    <main>
+    <section>
+        <h2>Formulario</h2>
+        <form name="datos">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p> <label for="nombre">Nombre:</label> <input id="nombre" type="text" /> </p>
+                <p> <label for="edad">Edad:</label> <input id="edad" type="number" min=1 /> </p>
+                <p> <label for="correo">Correo:</label> <input id="correo" type="email" /> </p>
+            </fieldset>
+        
+            <h4><label>·Ademas de Ember ¿conoces alguno de estos otros frameworks?</label></h4>
+            
+                <p><label for="Ruby">Ruby on Rails</label> <input id="Ruby" type="checkbox" /> </p>
+                <p><label for="Simphony">Simphony</label> <input id="Simphony" type="checkbox" /> </p>
+                <p><label for="Angular">Angular</label> <input id="Angular" type="checkbox" /> </p>
+                <p><label for="Larabel">Larabel</label> <input id="Larabel" type="checkbox" /> </p>
+            
+            <h4><label>·¿Te parece Ember un buen framework si tu objetivo es hacer una aplicacion escalable de una sola pagina?</label></h4>
+            
+                <p><label for="Si"> <input id="Si" type=radio name=size>Sí</label></p>
+                <p><label for="No"> <input id="No" type=radio name=size>No</label></p>
+        
+            <h4><label>Cuentenos por qué</label></h4>
+                <p><textarea cols=60 rows="5"></textarea></p>
+
+            <h4><label>·¿Que nota le darias?</label></h4>
+            
+                <label for="0"> <input id="0" type=radio name=size>0</label>
+                <label for="1"> <input id="1" type=radio name=size>1</label>
+                <label for="2"> <input id="2" type=radio name=size>2</label>
+                <label for="3"> <input id="3" type=radio name=size>3</label>
+                <label for="4"> <input id="4" type=radio name=size>4</label>
+                <label for="5"> <input id="5" type=radio name=size>5</label>
+                <label for="6"> <input id="6" type=radio name=size>6</label>
+                <label for="7"> <input id="7" type=radio name=size>7</label>
+                <label for="8"> <input id="8" type=radio name=size>8</label>
+                <label for="9"> <input id="9" type=radio name=size>9</label>
+                <label for="10"> <input id="10" type=radio name=size>10</label>
+
+            <label><input type=submit value = "Enviar"></label>
+        </form>
+    </section>
+</main>
+</body>
+
+</html>

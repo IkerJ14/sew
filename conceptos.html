@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="UO276417" />
+    <meta name ="description" content ="Conceptos basicos sobre ember" />
+    <meta name ="keywords" content ="Conceptos, basicos, ember" />
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+        
+
+    <title>Conceptos basicos</title>
+
+    <!-- Link de enlace con la hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+    <header>
+        <img src="Multimedia/ember.png" alt="Logo ember" />
+        <h1>Framework Ember.js</h1>
+    </header>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    
+    <nav>
+        <a href=index.html accesskey="I" tabindex=1>Inicio</a>
+        <a href=versions.html accesskey="V" tabindex=2>Versiones</a>
+        <a href=form.html accesskey="F" tabindex=3>Formulario</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Conceptos basicos sobre Ember</h2>
+            <p>Ember.js es un componente (EmberCLI) de una pila completa de front-end construida y soportada por el equipo central de Ember</p>
+            <p>Ember-cli tiene como objetivo llevar la convención sobre la configuración a las herramientas de construcción. Una utilidad de línea
+             de comandos basada en broccoli, ejecutando el comando ember new "nombre de la app" genera una nueva aplicación Ember con la pila por 
+                defecto. Esto proporciona:</p>
+            <ul>
+                <li>Una estructura de archivos y directorios estándar.</li>
+                <li>Un servidor de desarrollo con recarga en vivo.</li>
+                <li>Un framework de pruebas.</li>
+                <li>Dependencias gestionadas a través de npm.</li>
+                <li>Soporte de sintaxis ES6/ES7+ (usando Babel).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contenidos clave</h2>
+            
+            <h3>Rutas</h3>
+                <p>
+                    En Ember, el estado de una aplicación está representado por una URL. Cada URL tiene un objeto de ruta 
+                    correspondiente que controla lo que es visible para el usuario.
+                </p>
+            <h3>Modelos</h3>
+                <p>
+                    Cada ruta tiene un modelo asociado, que contiene los datos asociados al estado actual de la aplicación.
+                    Si bien se puede usar window.fetch para cargar objetos JSON desde un servidor y usar esos objetos como modelos,
+                    la mayoría de las aplicaciones usan una biblioteca de modelos como Ember Data para manejar esto.
+                </p>
+            <h3>Plantillas</h3>
+                <p>
+                    Las plantillas se utilizan para construir el HTML de la aplicación y se escriben con el lenguaje de plantillas HTMLBars . 
+                    (HTMLBars es una variación de Handlebars que crea elementos DOM en lugar de una cadena).
+                </p>
+            <h3>Componentes</h3>
+                <p>
+                    Un componente es una etiqueta HTML personalizada. El comportamiento se implementa usando JavaScript y su apariencia se 
+                    define usando plantillas HTMLBars. Los componentes "poseen" sus datos. También se pueden anidar y pueden comunicarse con 
+                    sus componentes principales a través de acciones (eventos). Otras bibliotecas de componentes, como Polymer, también se 
+                    pueden usar con Ember.
+                </p>
+            <h3>Servicios</h3>
+                <p>
+                    Los servicios son solo objetos únicos para almacenar datos de larga duración, como sesiones de usuario.
+                    Ember también proporciona inyección de dependencia , flujo de datos unidireccional declarativo ,
+                    propiedades rastreadas y plantillas de actualización automática .
+
+                </p>
+            
+        </section>        
+    </main>
+
+    <article>
+        <h2>Tutorial Ember</h2>
+        <p>Aqui podemos ver un ejemplo de como podemos empezar a poner todo a punto para empezar a trabajar con ember</p> 
+        <video src="Multimedia/video1.mp4" controls ></video> 
+    </article>
+    <footer>
+        <a href="https://en.wikipedia.org/wiki/Ember.js#Basic_concepts">Más conceptos sobre Ember</a>
+        <a href="https://addons.mozilla.org/es/firefox/addon/ember-inspector/versions/">Más informacion de las versiones de Ember</a>
+    </footer>
+</body>
+</html>

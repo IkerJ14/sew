@@ -1,0 +1,67 @@
+/**********
+Autor: Iker Jiménez Herrero - UO276417
+Hoja de estilos de pagina sobre Ember
+**************/
+
+  
+ 
+ /**Especifity = 0**/
+ header { 
+  box-shadow: 3px 0px 5px 2px #F5580A;
+  }
+  /**Especifity = 1**/
+  header img{
+    float: left;
+  }
+  /**Especifity = 0**/
+  nav {  
+    box-shadow: 3px 3px 5px 2px #F5580A;
+  }
+  ul li{
+    font-size: 1.1em;
+  }
+  /**Especifity = 0**/
+  main { 
+    grid-area: Content; 
+  }
+  /**Especifity = 0**/
+  article { 
+    
+    box-shadow: 3px 0px 5px 2px #F5580A;  
+  }
+  /**Especifity = 1**/
+  article h2{
+    background-color:#F5580A;
+    color: white;
+  }
+  /**Especifity = 1**/
+  article video{
+    max-width: 30em;
+    max-height: 30em;
+  }
+  /**Especifity = 0**/
+  footer { grid-area: Footer; 
+    box-shadow: 3px 3px 5px 2px #F5580A;
+  }
+  /**Especifity = 1**/
+  section h2{
+    background-color:rgb(96, 96, 248);
+    color: white;
+  }
+  /**Especifity = 0**/
+  table {
+    table-layout: fixed;
+    width: 500px;
+    border: 3px solid rgb(96, 96, 248);
+  }
+
+  /**Especifity = 2**/
+  table tr th{
+    border: 1px solid rgb(96, 96, 248);
+    border-collapse: collapse;
+  }
+
+  footer a{
+    font-size: 1.1em;
+  }
+  
